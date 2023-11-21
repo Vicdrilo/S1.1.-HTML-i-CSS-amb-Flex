@@ -33,6 +33,7 @@ body{
 }
 
 
+
 /******************************************/
 
 /*Media Query for Desktop*/
@@ -111,4 +112,17 @@ body{
 
 /******************************************/
 
+#animation:hover{
+    animation-name: expanse;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    
+}
 
+@keyframes expanse {
+    to {
+        background: rgb(247, 136, 0);
+        transform: scale(1.05);
+    }
+}
