@@ -47,20 +47,56 @@ div{
 
 /*Media Query for Tablets*/
 @media only screen and (min-width: 576px) and (max-width: 992px) {
-    #block_2{
+    #block-2{
         background-color: black;
         display: flex;
         flex-direction: column;
         padding:10px;
     }
     
-    .sub-block_2{
+    .sub-block-2{
         width:100%;
         margin-left:0;
     }
     
 }
 
+/*Media Query for Phones*/
+@media only screen and (max-width: 576px) {
+
+    .container-columns{
+        padding: 10px;
+    }
+    #sub-block-1{
+        flex-direction: column;
+    }
+
+    #block-2{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        padding:10px;
+    }
+
+    #sub-block-1, .sub-block-2, .sub-block-3{
+        margin-left: 0;
+    }
+
+    #block-2:first-child{
+        flex-flow: column nowrap;
+    }
+
+    [class*="col-"]{
+        width:100%;
+    }
+
+    /* div.yellow>div, #sub-block-2>div, #block-3>div*/
+    div.yellow>div, #sub-block-2>div, #block-3>div, #sub-block-1>div{
+        width: auto;
+    }
+    
+    
+}
 
 /******************************************/
 
