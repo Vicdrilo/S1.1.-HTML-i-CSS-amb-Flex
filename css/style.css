@@ -1,0 +1,68 @@
+/*Desktop*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {flex-basis: 100%;}
+
+body{
+    padding: 15ps;
+}
+div{
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.container-columns{
+    display: flex;
+    flex-direction: column;
+}
+.container-rows{
+    display: flex;
+    flex-direction: row;
+}
+.container-wrap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.bisque{background-color:bisque;}
+.red{background-color: rgb(150, 48, 48)}
+.aqua{background-color: aqua;}
+.blueviolet{background-color:blueviolet;}
+.yellow{background-color:greenyellow}
+.grey{background-color: grey;}
+
+
+
+
+
+/*Phones*/
+/*@media only screen and (max-width: 768px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+    
+}
+*/
+/*Tablets*/
+/*@media only screen and (min-width: 768px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+    
+}
+*/
+
+/******************************************/
+
+
