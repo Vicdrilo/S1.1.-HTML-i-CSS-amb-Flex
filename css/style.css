@@ -28,6 +28,11 @@ div{
 .yellow{background-color:greenyellow}
 .grey{background-color: grey;}
 
+body{
+    background-color: rgba(48, 141, 150, 0.667);
+}
+
+
 /******************************************/
 
 /*Media Query for Desktop*/
@@ -57,6 +62,9 @@ div{
     .sub-block-2{
         width:100%;
         margin-left:0;
+    }
+    body{
+        background-color: rgba(150, 48, 101, 0.667);
     }
     
 }
@@ -90,11 +98,14 @@ div{
         width:100%;
     }
 
-    /* div.yellow>div, #sub-block-2>div, #block-3>div*/
+    
     div.yellow>div, #sub-block-2>div, #block-3>div, #sub-block-1>div{
         width: auto;
     }
     
+    body{
+        background-color: rgba(141, 150, 48, 0.667);
+    }
     
 }
 
